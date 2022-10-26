@@ -1,0 +1,369 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+/* Global Styles */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  color: #1d1d1f;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+.white {
+  color: white;
+}
+
+.capital {
+  text-transform: uppercase;
+}
+
+/* Header Styles */
+header {
+  height: 44px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  position: sticky;
+  top: 0;
+}
+
+header .container {
+  max-width: 1024px;
+  width: 100%;
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav {
+  width: 85%;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+header nav ul li a {
+  font-size: 14px;
+}
+
+.logo,
+.search,
+.shopping-bag {
+  display: flex;
+}
+
+/* iPhone 14 */
+.pres-1 {
+  background-color: #fbfbfd;
+  height: 748px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.pres-1 .header {
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+}
+
+.pres-1 .header .titles {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 50%;
+}
+
+.pres-1 .header .titles h2 {
+  color: #1d1d1f;
+  font-size: 56px;
+  font-weight: 700;
+  letter-spacing: 0.28px;
+  line-height: 60px;
+  margin: 0;
+}
+
+.pres-1 .header .titles p {
+  color: #1d1d1f;
+  font-size: 28px;
+  letter-spacing: 0.11px;
+  line-height: 31px;
+  margin: 0;
+}
+
+.pres-1 .header .links {
+  display: flex;
+  justify-content: space-between;
+  height: 20%;
+  width: 70%;
+  margin-top: 10px;
+}
+
+.pres-1 .header .links a {
+  color: #0066cc;
+  font-size: 21px;
+  letter-spacing: 0.23px;
+  line-height: 29px;
+}
+
+.pres-1 .image {
+  height: 67%;
+}
+
+/* iPhone 14 Pro */
+
+.pres-2 {
+  background-color: black;
+  height: 748px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  text-align: center;
+}
+
+.pres-2 .image {
+  position: absolute;
+  bottom: 0;
+}
+
+.pres-2 .header {
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  z-index: 1;
+}
+
+.pres-2 .header .titles {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 50%;
+}
+
+.pres-2 .header .titles h2 {
+  color: white;
+  font-size: 56px;
+  font-weight: 700;
+  letter-spacing: 0.28px;
+  line-height: 60px;
+  margin: 0;
+}
+
+.pres-2 .header .titles p {
+  color: white;
+  font-size: 28px;
+  letter-spacing: 0.11px;
+  line-height: 31px;
+  margin: 0;
+}
+
+.pres-2 .header .links {
+  display: flex;
+  justify-content: space-between;
+  height: 20%;
+  margin-top: 10px;
+  width: 65%;
+}
+
+.pres-2 .header .links a {
+  color: #0066cc;
+  font-size: 21px;
+  letter-spacing: 0.23px;
+  line-height: 29px;
+}
+
+.pres-2 .image {
+  height: 90%;
+}
+
+/* Apple Watch */
+
+.pres-3 {
+  background-color: #fbfbfd;
+  height: 736px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  text-align: center;
+}
+
+.pres-3 .image {
+  width: 70%;
+}
+
+.pres-3 .header {
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.pres-3 .header .titles {
+  display: flex;
+  flex-direction: column;
+  height: 60%;
+  justify-content: space-between;
+}
+
+.pres-3 .header .titles h2 {
+  margin: 0;
+  color: #1d1d1f;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 0.28px;
+  text-transform: uppercase;
+}
+
+.pres-3 .header .titles .orange {
+  color: orange;
+  display: block;
+  font-size: 28px;
+}
+
+.pres-3 .header .titles p {
+  margin: 0;
+  color: #1d1d1f;
+  font-size: 28px;
+  line-height: 31px;
+  letter-spacing: 0.11px;
+}
+
+.pres-3 .header .links {
+  display: flex;
+  justify-content: space-between;
+  height: 20%;
+  margin-top: 10px;
+  width: 60%;
+}
+
+.pres-3 .header .links a {
+  color: #0066cc;
+  font-size: 21px;
+  letter-spacing: 0.23px;
+  line-height: 29px;
+}
+
+/* Section 2 */
+
+.items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: space-around;
+  height: 1776px;
+}
+
+.items .red {
+  color: red;
+  display: block;
+  font-size: 20px;
+}
+
+.items .item {
+  width: 48%;
+  height: 580px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+
+.item .header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+  height: 45%;
+}
+
+.item .header .titles {
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.item .header .titles h4 {
+  margin: 0;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 44px;
+}
+
+.item .header .titles p {
+  margin: 0;
+  font-size: 21px;
+  line-height: 26px;
+  letter-spacing: 0.34px;
+}
+
+.item .header .links {
+  height: 40%;
+  width: 60%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.item .header .links a {
+  color: #0066cc;
+  font-size: 21px;
+  letter-spacing: 0.23px;
+  line-height: 29px;
+}
+
+.items .item:first-child {
+  background: url("../img/watch-2.png") #161617;
+}
+
+.items .item:nth-child(2) {
+  background: url("../img/airpods.png") #161617;
+}
+
+.items .item:nth-child(3) {
+  background: url("../img/watch-3.png") #fbfbfd;
+}
+
+.items .item:nth-child(4) {
+  background: url("../img/fitness.png") #fbfbfd;
+}
+
+.items .item:nth-child(5) {
+  background: url("../img/macbook.png") #fbfbfd;
+}
+
+.items .item:last-child {
+  background: url("../img/card.png") #fbfbfd;
+}
